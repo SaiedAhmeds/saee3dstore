@@ -1,0 +1,177 @@
+/* Nav Bar */
+.project-nav {
+    background-color:blue;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 50px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 30px;
+    color: red;
+
+}
+
+a:hover {
+    background-color: red;
+    color:blue
+}
+
+
+
+/* Div Intro */
+
+hr {
+    background-color: black;
+    height: 30px;
+
+}
+
+.intro {
+    background-image: url(/images/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    right: 0;
+    left: 0;
+    margin-top: 50px;
+display: flex;
+justify-content: center;
+background-color:red
+}
+
+
+
+
+.autocar-img {
+    height: 300px;
+    width: 260px;
+    border-radius: 30px;
+    opacity: 1;
+
+}
+
+.autocar-img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.autocar {
+    width: 240px;
+    text-align: center;
+    margin-right: 80px;
+    border: 5px solid rgb(61, 42, 165);
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.autocars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    padding: 20px
+    
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.second-text {
+    color: rgb(168, 36, 21);
+}
+
+
+/* Table */
+
+table,
+tr,
+th,
+td {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.mytable{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color:blue;
+}
+
+table{
+    width: 60%;
+}
+
+th{
+    background-color: red;
+    height: 30px;
+}
+
+th,td{
+    padding: 20px;
+}
+
+.table-img{
+    width: 480px;
+    height: 320px;
+}
+.first-button{
+    border-radius: 60px;
+    margin: -button 15px;
+}
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+margin: 20px;
+}
+.packs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+.pack{
+    padding: 30px;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+.first-pack{
+    background-color:red
+
+}
+.second-pack{
+    background-color:blue;
+
+}
+
+.third-pack{
+    background-color:red;
+
+}
